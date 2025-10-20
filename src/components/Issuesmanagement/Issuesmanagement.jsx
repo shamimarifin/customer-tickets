@@ -16,9 +16,10 @@ const Issuesmanagement = ({ fetchPromise  }) => {
     const filterTask = tasks.filter(ticket => ticket.title !== p.title)
     setTasks(filterTask)
     setResolve([...resolve, p])
-
+    
   }
 
+ 
  
   return (
     <>
@@ -27,7 +28,7 @@ const Issuesmanagement = ({ fetchPromise  }) => {
         <div className="flex justify-between gap-5 flex-col md:flex-row">
           <Tickets tickets={tickets} tasks={tasks} setTasks={setTasks}></Tickets>
           <div>
-            <Tasks tasks={tasks} removeTask={removeTask} tickets={tickets}></Tasks>
+            <Tasks tasks={tasks} removeTask={removeTask} tickets={tickets} ></Tasks>
             <Resolve resolve={resolve}></Resolve>
           </div>
         </div>

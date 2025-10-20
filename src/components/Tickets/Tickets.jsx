@@ -1,7 +1,7 @@
 import React from 'react'
 import Ticketscard from '../Ticketscard/Ticketscard'
 
-const Tickets = ({tickets, tasks, setTasks , resolve, setResolve}) => {
+const Tickets = ({tickets, tasks, setTasks}) => {
 
   return (
      <div className='w-[1050px]'>

@@ -2,12 +2,12 @@
 import React from 'react'
 import { toast } from 'react-toastify'
 
-const Taskcard = ({task, removeTask, visibleTickets}) => {
+const Taskcard = ({task, removeTask }) => {
 
     const handleTask = (p)=> {
         removeTask(p) 
         toast("Completed!")
-      console.log(visibleTickets)
+
     }
 
   return (

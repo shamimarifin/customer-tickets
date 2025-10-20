@@ -6,27 +6,24 @@ import { toast } from "react-toastify";
 const Ticketscard = ({ticket, tasks, setTasks}) => {
   const [isAdded, setAdded] = useState(false)
   const [status, setStatus] = useState(ticket.status);
-
+  
 
   const handleTask = (ticketData)=> {
-     setStatus(status === "Open" ? "In-Progress" : "Open")
+    
+     setStatus(status === "Open" ? "In-Progress" : "Open");
 
     if(!isAdded){
       setTasks([...tasks, ticketData])
       toast('Ticket added successfully!')
       setAdded(true)
-     
     }else{
       toast('Already Added')
     }
 
   }
 
-  if(isAdded){
-    return null
-  }
 
- 
+
 
 
   return (
@@ -66,3 +63,4 @@ const Ticketscard = ({ticket, tasks, setTasks}) => {
 };
 
 export default Ticketscard;
+

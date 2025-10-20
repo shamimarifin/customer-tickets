@@ -5,7 +5,6 @@ const Countbox = ({tickets, resolve}) => {
 
   const progessingData = tickets.filter(element => element.status == "In-Progress")
 
-    console.log(progessingData)
 
 
   return (
