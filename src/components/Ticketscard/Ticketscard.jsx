@@ -20,8 +20,10 @@ const Ticketscard = ({ticket, tasks, setTasks}) => {
       toast('Already Added')
     }
 
+  }
 
-
+  if(isAdded){
+    return null
   }
 
  
