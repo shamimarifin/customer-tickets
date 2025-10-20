@@ -12,18 +12,21 @@ const Issuesmanagement = ({ fetchPromise  }) => {
   const [tasks, setTasks ] = useState([])
   const [resolve, setResolve] = useState([])
 
+
   const removeTask = (p)=> {
     const filterTask = tasks.filter(ticket => ticket.title !== p.title)
     setTasks(filterTask)
     setResolve([...resolve, p])
-    
   }
+
+
+
 
  
  
   return (
     <>
-      <Countbox tickets={tickets} resolve={resolve}></Countbox>
+      <Countbox tickets={tickets} resolve={resolve} tasks={tasks}></Countbox>
       <Container>
         <div className="flex justify-between gap-5 flex-col md:flex-row">
           <Tickets tickets={tickets} tasks={tasks} setTasks={setTasks}></Tickets>

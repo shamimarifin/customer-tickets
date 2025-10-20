@@ -1,10 +1,9 @@
 import React from 'react'
 
-const Countbox = ({tickets, resolve}) => {
+const Countbox = ({tickets, resolve, tasks}) => {
 
 
-  const progessingData = tickets.filter(element => element.status == "In-Progress")
-
+  const progessingData = tasks.filter(element => element.status == "In-Progress")
 
 
   return (
