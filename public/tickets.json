@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Website not loading properly",
+    "description": "The homepage takes too long to load and sometimes shows a 500 error.",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "10/13/2025"
+  },
+  {
+    "id": 2,
+    "title": "Unable to reset password",
+    "description": "Customer tried password reset several times but didn’t receive the reset email.",
+    "customer": "Sarah Williams",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "10/12/2025"
+  },
+  {
+    "id": 3,
+    "title": "Payment not going through",
+    "description": "The checkout page freezes when trying to make payment using credit card.",
+    "customer": "Michael Brown",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "10/11/2025"
+  },
+  {
+    "id": 4,
+    "title": "Database connection error",
+    "description": "The admin panel fails to connect to the database after latest update.",
+    "customer": "Emma Johnson",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "10/10/2025"
+  },
+  {
+    "id": 5,
+    "title": "Images not displaying on product page",
+    "description": "Product images appear as broken links on the product details page.",
+    "customer": "Jessica Miller",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "10/09/2025"
+  },
+  {
+    "id": 6,
+    "title": "Email notifications not received",
+    "description": "Customer not receiving order confirmation or update emails.",
+    "customer": "David Wilson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "10/08/2025"
+  },
+  {
+    "id": 7,
+    "title": "Mobile layout issue",
+    "description": "The website layout breaks on small screens and overlaps text.",
+    "customer": "Sophia Davis",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "10/07/2025"
+  },
+  {
+    "id": 8,
+    "title": "Order history missing",
+    "description": "Customer cannot see past orders after logging in.",
+    "customer": "Olivia Anderson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "10/06/2025"
+  },
+  {
+    "id": 9,
+    "title": "Slow checkout process",
+    "description": "Checkout takes more than 30 seconds to load the payment page.",
+    "customer": "Ava Taylor",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "10/05/2025"
+  },
+  {
+    "id": 10,
+    "title": "Search function not returning results",
+    "description": "The search bar does not display any results even when valid items exist.",
+    "customer": "William Thomas",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "10/04/2025"
+  }
+]
